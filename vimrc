@@ -1,9 +1,3 @@
-" vim: fdm=marker:
-" Recommended for vim >= 7; no guarantee of compatibility with earlier versions
-" Lucas Oman <me@lucasoman.com>
-" --enable-rubyinterp --prefix=/usr --enable-ruby
-" Get latest from: http://github.com/lucasoman/Conf/raw/master/.vimrc
-
 " load pathogen
 
 "set t_Co=256
