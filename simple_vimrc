@@ -25,6 +25,7 @@ set showmode
 
 " Show line numbers
 set number
+set relativenumber
 set numberwidth=3
 
 " show fold column, fold by markers
@@ -95,6 +96,11 @@ map <leader><space> :let @/=''<cr> " clear search
 inoremap <F1> <ESC>:set invfullscreen<CR>a
 nnoremap <F1> :set invfullscreen<CR>
 vnoremap <F1> :set invfullscreen<CR>
+
+" Auto insert matching parenthesis
+inoremap {<cr> {<cr>}<c-o><s-o>
+inoremap (<cr> (<cr>)<c-o><s-o>
+inoremap [<cr> [<cr>]<c-o><s-o>
 
 " Textmate holdouts
 
