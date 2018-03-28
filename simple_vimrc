@@ -57,7 +57,7 @@ set showtabline=2
 
 " highlight position of cursor
 set cursorline
-"set cursorcolumn
+set cursorcolumn
 
 " Cursor motion
 set scrolloff=3
@@ -162,8 +162,8 @@ let mapleader = "\\"
 nmap <C-j> <C-e>
 nmap <C-k> <C-y>
 nmap <space> za
-imap ;; <Esc>
-vmap ;; <Esc>
+imap jj <Esc>
+vmap jj <Esc>
 
 "Dracula Color
 " Dracula Theme v1.2.7
