@@ -37,6 +37,8 @@ set showbreak=>\
 
 " Show file stats
 set ruler
+" not copying line numbers
+:se mouse+=a
 
 " Blink cursor on error instead of beeping (grr)
 set visualbell
